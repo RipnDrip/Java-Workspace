@@ -1,0 +1,713 @@
+03:16:39 **** Rebuild of configuration Debug for project Test C++ ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn06\\p1.o" "..\\assn06\\p1.cpp" 
+In file included from ..\assn06\p1.cpp:3:
+..\assn06\Matrix.cpp: In constructor 'Matrix::Matrix(uint, uint)':
+..\assn06\Matrix.cpp:28:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:33:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:35:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In copy constructor 'Matrix::Matrix(const Matrix&)':
+..\assn06\Matrix.cpp:67:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp: In destructor 'Matrix::~Matrix()':
+..\assn06\Matrix.cpp:82:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp: In member function 'double& Matrix::at(uint, uint)':
+..\assn06\Matrix.cpp:91:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:93:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp:95:23: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                     ~~^~~~~~
+..\assn06\Matrix.cpp:95:35: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                                 ~~^~~~~~
+..\assn06\Matrix.cpp: In member function 'const double& Matrix::at(uint, uint) const':
+..\assn06\Matrix.cpp:107:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:109:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp:111:23: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                     ~~^~~~~~
+..\assn06\Matrix.cpp:111:35: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                                 ~~^~~~~~
+..\assn06\Matrix.cpp: In member function 'void Matrix::printMatrix()':
+..\assn06\Matrix.cpp:122:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:124:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::add(double) const':
+..\assn06\Matrix.cpp:146:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:148:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::add(const Matrix&) const':
+..\assn06\Matrix.cpp:159:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:161:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::subtract(double) const':
+..\assn06\Matrix.cpp:173:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:175:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::subtract(const Matrix&) const':
+..\assn06\Matrix.cpp:186:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:188:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::multiply(double) const':
+..\assn06\Matrix.cpp:200:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:202:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::multiply(const Matrix&) const':
+..\assn06\Matrix.cpp:213:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:215:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::divide(double) const':
+..\assn06\Matrix.cpp:227:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:229:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::t() const':
+..\assn06\Matrix.cpp:240:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < numRows(); i++)
+                         ~~^~~~~~~~~~~
+..\assn06\Matrix.cpp:245:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:247:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn09\\FPID.o" "..\\assn09\\FPID.cpp" 
+..\assn09\FPID.cpp: In function 'int main()':
+..\assn09\FPID.cpp:16:16: error: 'fork' was not declared in this scope
+     if ((pid = fork()) < 0) {
+                ^~~~
+03:17:44 **** Incremental Build of configuration Debug for project Test C++ ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Account\\Driver.o" "..\\Account\\Driver.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn04\\bitsum.o" "..\\assn04\\bitsum.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn08\\firstLine.o" "..\\assn08\\firstLine.cpp" 
+..\assn08\firstLine.cpp: In function 'int main(int, char**)':
+..\assn08\firstLine.cpp:31:15: warning: unused variable 'length' [-Wunused-variable]
+     int bytes,length;
+               ^~~~~~
+..\assn08\firstLine.cpp:32:9: warning: unused variable 'buffCount' [-Wunused-variable]
+     int buffCount = 0;
+         ^~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn09\\FPID.o" "..\\assn09\\FPID.cpp" 
+..\assn09\FPID.cpp: In function 'int main()':
+..\assn09\FPID.cpp:16:16: error: 'fork' was not declared in this scope
+     if ((pid = fork()) < 0) {
+                ^~~~
+03:21:47 **** Incremental Build of configuration Debug for project Test C++ ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn03\\Assn03.o" "..\\assn03\\Assn03.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn07\\p1.o" "..\\assn07\\p1.cpp" 
+In file included from ..\assn07\p1.cpp:3:
+..\assn07\Matrix.cpp: In constructor 'Matrix::Matrix(uint, uint)':
+..\assn07\Matrix.cpp:28:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:33:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:35:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In copy constructor 'Matrix::Matrix(const Matrix&)':
+..\assn07\Matrix.cpp:67:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp: In destructor 'Matrix::~Matrix()':
+..\assn07\Matrix.cpp:82:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp: In member function 'double Matrix::operator()(uint, uint)':
+..\assn07\Matrix.cpp:92:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:97:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:99:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp:101:23: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == rows && j == cols)
+                     ~~^~~~~~~
+..\assn07\Matrix.cpp:101:36: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == rows && j == cols)
+                                  ~~^~~~~~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::operator=(const Matrix&)':
+..\assn07\Matrix.cpp:116:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::operator+(Matrix&)':
+..\assn07\Matrix.cpp:134:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:136:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::operator-(Matrix&)':
+..\assn07\Matrix.cpp:148:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:150:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::operator*(Matrix&)':
+..\assn07\Matrix.cpp:162:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:164:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::operator/(Matrix&)':
+..\assn07\Matrix.cpp:176:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:178:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::operator+(double)':
+..\assn07\Matrix.cpp:190:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:192:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::operator-(double)':
+..\assn07\Matrix.cpp:204:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:206:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::operator*(double)':
+..\assn07\Matrix.cpp:218:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:220:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::operator/(double)':
+..\assn07\Matrix.cpp:232:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:234:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In function 'void operator<<(std::ostream, Matrix&)':
+..\assn07\Matrix.cpp:244:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < m.x; i++)
+                         ~~^~~~~
+..\assn07\Matrix.cpp:246:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < m.y; j++)
+                             ~~^~~~~
+..\assn07\Matrix.cpp: In member function 'double& Matrix::at(uint, uint)':
+..\assn07\Matrix.cpp:256:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:258:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp:260:23: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                     ~~^~~~~~
+..\assn07\Matrix.cpp:260:35: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                                 ~~^~~~~~
+..\assn07\Matrix.cpp: In member function 'const double& Matrix::at(uint, uint) const':
+..\assn07\Matrix.cpp:271:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:273:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp:275:23: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                     ~~^~~~~~
+..\assn07\Matrix.cpp:275:35: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                                 ~~^~~~~~
+..\assn07\Matrix.cpp: In member function 'void Matrix::printMatrix()':
+..\assn07\Matrix.cpp:286:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:289:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::add(double) const':
+..\assn07\Matrix.cpp:312:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:314:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::add(const Matrix&) const':
+..\assn07\Matrix.cpp:325:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:327:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::subtract(double) const':
+..\assn07\Matrix.cpp:339:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:341:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::subtract(const Matrix&) const':
+..\assn07\Matrix.cpp:352:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:354:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::multiply(double) const':
+..\assn07\Matrix.cpp:366:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:368:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::multiply(const Matrix&) const':
+..\assn07\Matrix.cpp:379:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:381:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::divide(double) const':
+..\assn07\Matrix.cpp:393:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:395:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn07\Matrix.cpp: In member function 'Matrix Matrix::t() const':
+..\assn07\Matrix.cpp:406:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < numRows(); i++)
+                         ~~^~~~~~~~~~~
+..\assn07\Matrix.cpp:411:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn07\Matrix.cpp:413:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn06\\Matrix.o" "..\\assn06\\Matrix.cpp" 
+..\assn06\Matrix.cpp: In constructor 'Matrix::Matrix(uint, uint)':
+..\assn06\Matrix.cpp:28:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:33:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:35:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In copy constructor 'Matrix::Matrix(const Matrix&)':
+..\assn06\Matrix.cpp:67:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp: In destructor 'Matrix::~Matrix()':
+..\assn06\Matrix.cpp:82:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp: In member function 'double& Matrix::at(uint, uint)':
+..\assn06\Matrix.cpp:91:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:93:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp:95:23: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                     ~~^~~~~~
+..\assn06\Matrix.cpp:95:35: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                                 ~~^~~~~~
+..\assn06\Matrix.cpp: In member function 'const double& Matrix::at(uint, uint) const':
+..\assn06\Matrix.cpp:107:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:109:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp:111:23: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                     ~~^~~~~~
+..\assn06\Matrix.cpp:111:35: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                                 ~~^~~~~~
+..\assn06\Matrix.cpp: In member function 'void Matrix::printMatrix()':
+..\assn06\Matrix.cpp:122:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:124:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::add(double) const':
+..\assn06\Matrix.cpp:146:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:148:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::add(const Matrix&) const':
+..\assn06\Matrix.cpp:159:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:161:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::subtract(double) const':
+..\assn06\Matrix.cpp:173:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:175:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::subtract(const Matrix&) const':
+..\assn06\Matrix.cpp:186:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:188:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::multiply(double) const':
+..\assn06\Matrix.cpp:200:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:202:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::multiply(const Matrix&) const':
+..\assn06\Matrix.cpp:213:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:215:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::divide(double) const':
+..\assn06\Matrix.cpp:227:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:229:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::t() const':
+..\assn06\Matrix.cpp:240:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < numRows(); i++)
+                         ~~^~~~~~~~~~~
+..\assn06\Matrix.cpp:245:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:247:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn09\\FPID.o" "..\\assn09\\FPID.cpp" 
+..\assn09\FPID.cpp: In function 'int main()':
+..\assn09\FPID.cpp:16:16: error: 'fork' was not declared in this scope
+     if ((pid = fork()) < 0) {
+                ^~~~
+03:21:50 **** Incremental Build of configuration Debug for project Test C++ ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Wait\\wait.o" "..\\Wait\\wait.cpp" 
+..\Wait\wait.cpp:4:10: fatal error: sys/wait.h: No such file or directory
+ #include <sys/wait.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+03:24:23 **** Incremental Build of configuration Debug for project Test C++ ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Wait\\wait.o" "..\\Wait\\wait.cpp" 
+..\Wait\wait.cpp:4:10: fatal error: sys/wait.h: No such file or directory
+ #include <sys/wait.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+03:24:32 **** Incremental Build of configuration Debug for project Test C++ ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn06\\Matrix.o" "..\\assn06\\Matrix.cpp" 
+..\assn06\Matrix.cpp: In constructor 'Matrix::Matrix(uint, uint)':
+..\assn06\Matrix.cpp:28:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:33:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:35:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In copy constructor 'Matrix::Matrix(const Matrix&)':
+..\assn06\Matrix.cpp:67:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp: In destructor 'Matrix::~Matrix()':
+..\assn06\Matrix.cpp:82:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp: In member function 'double& Matrix::at(uint, uint)':
+..\assn06\Matrix.cpp:91:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:93:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp:95:23: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                     ~~^~~~~~
+..\assn06\Matrix.cpp:95:35: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                                 ~~^~~~~~
+..\assn06\Matrix.cpp: In member function 'const double& Matrix::at(uint, uint) const':
+..\assn06\Matrix.cpp:107:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:109:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp:111:23: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                     ~~^~~~~~
+..\assn06\Matrix.cpp:111:35: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                                 ~~^~~~~~
+..\assn06\Matrix.cpp: In member function 'void Matrix::printMatrix()':
+..\assn06\Matrix.cpp:122:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:124:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::add(double) const':
+..\assn06\Matrix.cpp:146:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:148:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::add(const Matrix&) const':
+..\assn06\Matrix.cpp:159:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:161:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::subtract(double) const':
+..\assn06\Matrix.cpp:173:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:175:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::subtract(const Matrix&) const':
+..\assn06\Matrix.cpp:186:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:188:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::multiply(double) const':
+..\assn06\Matrix.cpp:200:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:202:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::multiply(const Matrix&) const':
+..\assn06\Matrix.cpp:213:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:215:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::divide(double) const':
+..\assn06\Matrix.cpp:227:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:229:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::t() const':
+..\assn06\Matrix.cpp:240:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < numRows(); i++)
+                         ~~^~~~~~~~~~~
+..\assn06\Matrix.cpp:245:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:247:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn08\\longestline.o" "..\\assn08\\longestline.cpp" 
+..\assn08\longestline.cpp: In function 'int main(int, char**)':
+..\assn08\longestline.cpp:31:10: warning: unused variable 'value' [-Wunused-variable]
+     char value;
+          ^~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn03\\Assn03.o" "..\\assn03\\Assn03.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn04\\tempCodeRunnerFile.o" "..\\assn04\\tempCodeRunnerFile.cpp" 
+..\assn04\tempCodeRunnerFile.cpp:1:3: error: 'cout' does not name a type
+   cout << numberOfOnes(input) << endl;
+   ^~~~
+03:24:58 **** Incremental Build of configuration Debug for project Test C++ ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Wait\\bad.o" "..\\Wait\\bad.cpp" 
+..\Wait\bad.cpp: In function 'int main()':
+..\Wait\bad.cpp:8:6: error: 'fork' was not declared in this scope
+   if(fork() == 0) {
+      ^~~~
+03:25:22 **** Incremental Build of configuration Debug for project Test C++ ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Account\\Driver.o" "..\\Account\\Driver.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn06\\p1.o" "..\\assn06\\p1.cpp" 
+In file included from ..\assn06\p1.cpp:3:
+..\assn06\Matrix.cpp: In constructor 'Matrix::Matrix(uint, uint)':
+..\assn06\Matrix.cpp:28:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:33:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:35:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In copy constructor 'Matrix::Matrix(const Matrix&)':
+..\assn06\Matrix.cpp:67:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp: In destructor 'Matrix::~Matrix()':
+..\assn06\Matrix.cpp:82:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp: In member function 'double& Matrix::at(uint, uint)':
+..\assn06\Matrix.cpp:91:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:93:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp:95:23: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                     ~~^~~~~~
+..\assn06\Matrix.cpp:95:35: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                                 ~~^~~~~~
+..\assn06\Matrix.cpp: In member function 'const double& Matrix::at(uint, uint) const':
+..\assn06\Matrix.cpp:107:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:109:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp:111:23: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                     ~~^~~~~~
+..\assn06\Matrix.cpp:111:35: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+                 if (i == row && j == col)
+                                 ~~^~~~~~
+..\assn06\Matrix.cpp: In member function 'void Matrix::printMatrix()':
+..\assn06\Matrix.cpp:122:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:124:31: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::add(double) const':
+..\assn06\Matrix.cpp:146:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:148:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::add(const Matrix&) const':
+..\assn06\Matrix.cpp:159:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:161:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::subtract(double) const':
+..\assn06\Matrix.cpp:173:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:175:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::subtract(const Matrix&) const':
+..\assn06\Matrix.cpp:186:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:188:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::multiply(double) const':
+..\assn06\Matrix.cpp:200:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:202:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::multiply(const Matrix&) const':
+..\assn06\Matrix.cpp:213:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:215:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::divide(double) const':
+..\assn06\Matrix.cpp:227:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:229:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+..\assn06\Matrix.cpp: In member function 'Matrix Matrix::t() const':
+..\assn06\Matrix.cpp:240:27: warning: comparison of integer expressions of different signedness: 'int' and 'uint' {aka 'unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < numRows(); i++)
+                         ~~^~~~~~~~~~~
+..\assn06\Matrix.cpp:245:27: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+         for (int i = 0; i < x; i++)
+                         ~~^~~
+..\assn06\Matrix.cpp:247:31: warning: comparison of integer expressions of different signedness: 'int' and 'const uint' {aka 'const unsigned int'} [-Wsign-compare]
+             for (int j = 0; j < y; j++)
+                             ~~^~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "assn04\\tempCodeRunnerFile.o" "..\\assn04\\tempCodeRunnerFile.cpp" 
+..\assn04\tempCodeRunnerFile.cpp:1:3: error: 'cout' does not name a type
+   cout << numberOfOnes(input) << endl;
+   ^~~~

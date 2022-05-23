@@ -1,0 +1,17 @@
+LaunchTargetManager/configs/TestArea=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Test C++ Debug,org.eclipse.launchbar.core.descriptorType.default\:TestSpace,org.eclipse.launchbar.core.descriptorType.default\:Eclipse Python test1.py,org.eclipse.launchbar.core.descriptorType.default\:Eclipse Python main.py,org.eclipse.launchbar.core.descriptorType.default\:TestArea
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Eclipse\ Python\ main.py/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Eclipse\ Python\ main.py/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Eclipse\ Python\ test1.py/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Eclipse\ Python\ test1.py/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:New_configuration/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:New_configuration/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Test\ C++\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Test\ C++\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:TestArea/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:TestSpace/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:TestSpace/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
